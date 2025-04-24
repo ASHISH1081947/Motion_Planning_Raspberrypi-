@@ -1,0 +1,3 @@
+[console_scripts]
+ackermann_motor_controller = ackermann_control.ackermann_motor_controller:main
+

@@ -1,0 +1,37 @@
+[6.866s] Invoking command in '/home/Ashish/ros2_ws/src/ackermann_control': PYTHONPATH=/home/Ashish/ros2_ws/build/ackermann_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Ashish/ros2_ws/install/ackermann_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ackermann_control build --build-base /home/Ashish/ros2_ws/build/ackermann_control/build install --record /home/Ashish/ros2_ws/build/ackermann_control/install.log --single-version-externally-managed install_data
+[9.452s] running egg_info
+[9.457s] creating ../../build/ackermann_control/ackermann_control.egg-info
+[9.459s] writing ../../build/ackermann_control/ackermann_control.egg-info/PKG-INFO
+[9.461s] writing dependency_links to ../../build/ackermann_control/ackermann_control.egg-info/dependency_links.txt
+[9.463s] writing entry points to ../../build/ackermann_control/ackermann_control.egg-info/entry_points.txt
+[9.464s] writing requirements to ../../build/ackermann_control/ackermann_control.egg-info/requires.txt
+[9.465s] writing top-level names to ../../build/ackermann_control/ackermann_control.egg-info/top_level.txt
+[9.467s] writing manifest file '../../build/ackermann_control/ackermann_control.egg-info/SOURCES.txt'
+[9.483s] reading manifest file '../../build/ackermann_control/ackermann_control.egg-info/SOURCES.txt'
+[9.492s] writing manifest file '../../build/ackermann_control/ackermann_control.egg-info/SOURCES.txt'
+[9.494s] running build
+[9.495s] running build_py
+[9.497s] creating /home/Ashish/ros2_ws/build/ackermann_control/build
+[9.498s] creating /home/Ashish/ros2_ws/build/ackermann_control/build/lib
+[9.499s] creating /home/Ashish/ros2_ws/build/ackermann_control/build/lib/ackermann_control
+[9.500s] copying ackermann_control/__init__.py -> /home/Ashish/ros2_ws/build/ackermann_control/build/lib/ackermann_control
+[9.501s] copying ackermann_control/ackermann_motor_controller.py -> /home/Ashish/ros2_ws/build/ackermann_control/build/lib/ackermann_control
+[9.502s] running install
+[9.505s] running install_lib
+[9.513s] creating /home/Ashish/ros2_ws/install/ackermann_control/lib/python3.10/site-packages/ackermann_control
+[9.514s] copying /home/Ashish/ros2_ws/build/ackermann_control/build/lib/ackermann_control/__init__.py -> /home/Ashish/ros2_ws/install/ackermann_control/lib/python3.10/site-packages/ackermann_control
+[9.516s] copying /home/Ashish/ros2_ws/build/ackermann_control/build/lib/ackermann_control/ackermann_motor_controller.py -> /home/Ashish/ros2_ws/install/ackermann_control/lib/python3.10/site-packages/ackermann_control
+[9.522s] byte-compiling /home/Ashish/ros2_ws/install/ackermann_control/lib/python3.10/site-packages/ackermann_control/__init__.py to __init__.cpython-310.pyc
+[9.525s] byte-compiling /home/Ashish/ros2_ws/install/ackermann_control/lib/python3.10/site-packages/ackermann_control/ackermann_motor_controller.py to ackermann_motor_controller.cpython-310.pyc
+[9.533s] running install_data
+[9.535s] creating /home/Ashish/ros2_ws/install/ackermann_control/share/ament_index
+[9.536s] creating /home/Ashish/ros2_ws/install/ackermann_control/share/ament_index/resource_index
+[9.537s] creating /home/Ashish/ros2_ws/install/ackermann_control/share/ament_index/resource_index/packages
+[9.539s] copying resource/ackermann_control -> /home/Ashish/ros2_ws/install/ackermann_control/share/ament_index/resource_index/packages
+[9.540s] copying package.xml -> /home/Ashish/ros2_ws/install/ackermann_control/share/ackermann_control
+[9.541s] running install_egg_info
+[9.558s] Copying ../../build/ackermann_control/ackermann_control.egg-info to /home/Ashish/ros2_ws/install/ackermann_control/lib/python3.10/site-packages/ackermann_control-0.0.0-py3.10.egg-info
+[9.574s] running install_scripts
+[9.773s] Installing ackermann_motor_controller script to /home/Ashish/ros2_ws/install/ackermann_control/lib/ackermann_control
+[9.776s] writing list of installed files to '/home/Ashish/ros2_ws/build/ackermann_control/install.log'
+[9.999s] Invoked command in '/home/Ashish/ros2_ws/src/ackermann_control' returned '0': PYTHONPATH=/home/Ashish/ros2_ws/build/ackermann_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Ashish/ros2_ws/install/ackermann_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ackermann_control build --build-base /home/Ashish/ros2_ws/build/ackermann_control/build install --record /home/Ashish/ros2_ws/build/ackermann_control/install.log --single-version-externally-managed install_data

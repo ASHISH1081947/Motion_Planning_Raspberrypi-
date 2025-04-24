@@ -1,0 +1,925 @@
+[0.000000] (-) TimerEvent: {}
+[0.000974] (ackermann_control) JobQueued: {'identifier': 'ackermann_control', 'dependencies': OrderedDict()}
+[0.001788] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.002210] (ackermann_control) JobStarted: {'identifier': 'ackermann_control'}
+[0.093369] (-) TimerEvent: {}
+[0.122976] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.193723] (-) TimerEvent: {}
+[0.294978] (-) TimerEvent: {}
+[0.396226] (-) TimerEvent: {}
+[0.497408] (-) TimerEvent: {}
+[0.598530] (-) TimerEvent: {}
+[0.699714] (-) TimerEvent: {}
+[0.800884] (-) TimerEvent: {}
+[0.902129] (-) TimerEvent: {}
+[1.003273] (-) TimerEvent: {}
+[1.104474] (-) TimerEvent: {}
+[1.205631] (-) TimerEvent: {}
+[1.306728] (-) TimerEvent: {}
+[1.407887] (-) TimerEvent: {}
+[1.509007] (-) TimerEvent: {}
+[1.610117] (-) TimerEvent: {}
+[1.711228] (-) TimerEvent: {}
+[1.812356] (-) TimerEvent: {}
+[1.913467] (-) TimerEvent: {}
+[2.014575] (-) TimerEvent: {}
+[2.115746] (-) TimerEvent: {}
+[2.216859] (-) TimerEvent: {}
+[2.318013] (-) TimerEvent: {}
+[2.419144] (-) TimerEvent: {}
+[2.520508] (-) TimerEvent: {}
+[2.622213] (-) TimerEvent: {}
+[2.733488] (-) TimerEvent: {}
+[2.784009] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[2.799796] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/Ashish/ros2_ws/src/rplidar_ros', '-DCMAKE_INSTALL_PREFIX=/home/Ashish/ros2_ws/install/rplidar_ros'], 'cwd': '/home/Ashish/ros2_ws/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'Ashish'), ('SSH_CLIENT', '172.30.84.238 63822 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/Ashish/ros2_ws/install/rplidar_ros/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/Ashish'), ('OLDPWD', '/home/Ashish/ros2_ws/src/ackermann_control/ackermann_control'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('ROS_IP', '10.79.81.235'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/Ashish/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'Ashish'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/Ashish/ros2_ws/install/rplidar_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/Ashish/ros2_ws/build/rplidar_ros'), ('SSH_CONNECTION', '172.30.84.238 63822 172.30.84.235 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/Ashish/ros2_ws/install/rplidar_ros')]), 'shell': False}
+[2.835907] (-) TimerEvent: {}
+[2.939078] (-) TimerEvent: {}
+[3.040597] (-) TimerEvent: {}
+[3.141899] (-) TimerEvent: {}
+[3.243128] (-) TimerEvent: {}
+[3.245301] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.343561] (-) TimerEvent: {}
+[3.444840] (-) TimerEvent: {}
+[3.546067] (-) TimerEvent: {}
+[3.647465] (-) TimerEvent: {}
+[3.749017] (-) TimerEvent: {}
+[3.850250] (-) TimerEvent: {}
+[3.951672] (-) TimerEvent: {}
+[4.052954] (-) TimerEvent: {}
+[4.154186] (-) TimerEvent: {}
+[4.255444] (-) TimerEvent: {}
+[4.356659] (-) TimerEvent: {}
+[4.457938] (-) TimerEvent: {}
+[4.559222] (-) TimerEvent: {}
+[4.595134] (rplidar_ros) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.659514] (-) TimerEvent: {}
+[4.760919] (-) TimerEvent: {}
+[4.764014] (rplidar_ros) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.861173] (-) TimerEvent: {}
+[4.962379] (-) TimerEvent: {}
+[5.063896] (-) TimerEvent: {}
+[5.165152] (-) TimerEvent: {}
+[5.244613] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.265362] (-) TimerEvent: {}
+[5.285104] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.365635] (-) TimerEvent: {}
+[5.374846] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.465897] (-) TimerEvent: {}
+[5.518271] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.566141] (-) TimerEvent: {}
+[5.667498] (-) TimerEvent: {}
+[5.698456] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.767758] (-) TimerEvent: {}
+[5.869311] (-) TimerEvent: {}
+[5.970624] (-) TimerEvent: {}
+[6.072065] (-) TimerEvent: {}
+[6.167200] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.172299] (-) TimerEvent: {}
+[6.190815] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.272546] (-) TimerEvent: {}
+[6.373760] (-) TimerEvent: {}
+[6.475170] (-) TimerEvent: {}
+[6.576996] (-) TimerEvent: {}
+[6.678435] (-) TimerEvent: {}
+[6.780435] (-) TimerEvent: {}
+[6.846624] (ackermann_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ackermann_control', 'build', '--build-base', '/home/Ashish/ros2_ws/build/ackermann_control/build', 'install', '--record', '/home/Ashish/ros2_ws/build/ackermann_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/Ashish/ros2_ws/src/ackermann_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'Ashish', 'SSH_CLIENT': '172.30.84.238 63822 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/Ashish/ros2_ws/install/rplidar_ros/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/Ashish', 'OLDPWD': '/home/Ashish/ros2_ws/src/ackermann_control/ackermann_control', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'ROS_IP': '10.79.81.235', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/Ashish/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'Ashish', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/Ashish/ros2_ws/install/rplidar_ros:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/Ashish/ros2_ws/build/ackermann_control', 'SSH_CONNECTION': '172.30.84.238 63822 172.30.84.235 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/Ashish/ros2_ws/build/ackermann_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Ashish/ros2_ws/install/ackermann_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/Ashish/ros2_ws/install/rplidar_ros'}, 'shell': False}
+[6.880685] (-) TimerEvent: {}
+[6.982927] (-) TimerEvent: {}
+[7.085604] (-) TimerEvent: {}
+[7.187628] (-) TimerEvent: {}
+[7.289632] (-) TimerEvent: {}
+[7.391565] (-) TimerEvent: {}
+[7.493427] (-) TimerEvent: {}
+[7.577201] (rplidar_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.593723] (-) TimerEvent: {}
+[7.695834] (-) TimerEvent: {}
+[7.797227] (-) TimerEvent: {}
+[7.898629] (-) TimerEvent: {}
+[8.000004] (-) TimerEvent: {}
+[8.101246] (-) TimerEvent: {}
+[8.202419] (-) TimerEvent: {}
+[8.247190] (rplidar_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[8.302665] (-) TimerEvent: {}
+[8.405143] (-) TimerEvent: {}
+[8.507574] (-) TimerEvent: {}
+[8.610037] (-) TimerEvent: {}
+[8.636091] (rplidar_ros) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[8.710269] (-) TimerEvent: {}
+[8.812671] (-) TimerEvent: {}
+[8.914638] (-) TimerEvent: {}
+[9.016607] (-) TimerEvent: {}
+[9.118513] (-) TimerEvent: {}
+[9.220468] (-) TimerEvent: {}
+[9.322378] (-) TimerEvent: {}
+[9.424281] (-) TimerEvent: {}
+[9.452824] (ackermann_control) StdoutLine: {'line': b'running egg_info\n'}
+[9.458716] (ackermann_control) StdoutLine: {'line': b'creating ../../build/ackermann_control/ackermann_control.egg-info\n'}
+[9.460472] (ackermann_control) StdoutLine: {'line': b'writing ../../build/ackermann_control/ackermann_control.egg-info/PKG-INFO\n'}
+[9.462614] (ackermann_control) StdoutLine: {'line': b'writing dependency_links to ../../build/ackermann_control/ackermann_control.egg-info/dependency_links.txt\n'}
+[9.464202] (ackermann_control) StdoutLine: {'line': b'writing entry points to ../../build/ackermann_control/ackermann_control.egg-info/entry_points.txt\n'}
+[9.465527] (ackermann_control) StdoutLine: {'line': b'writing requirements to ../../build/ackermann_control/ackermann_control.egg-info/requires.txt\n'}
+[9.466773] (ackermann_control) StdoutLine: {'line': b'writing top-level names to ../../build/ackermann_control/ackermann_control.egg-info/top_level.txt\n'}
+[9.468729] (ackermann_control) StdoutLine: {'line': b"writing manifest file '../../build/ackermann_control/ackermann_control.egg-info/SOURCES.txt'\n"}
+[9.484648] (ackermann_control) StdoutLine: {'line': b"reading manifest file '../../build/ackermann_control/ackermann_control.egg-info/SOURCES.txt'\n"}
+[9.493537] (ackermann_control) StdoutLine: {'line': b"writing manifest file '../../build/ackermann_control/ackermann_control.egg-info/SOURCES.txt'\n"}
+[9.495007] (ackermann_control) StdoutLine: {'line': b'running build\n'}
+[9.496504] (ackermann_control) StdoutLine: {'line': b'running build_py\n'}
+[9.498126] (ackermann_control) StdoutLine: {'line': b'creating /home/Ashish/ros2_ws/build/ackermann_control/build\n'}
+[9.499380] (ackermann_control) StdoutLine: {'line': b'creating /home/Ashish/ros2_ws/build/ackermann_control/build/lib\n'}
+[9.500381] (ackermann_control) StdoutLine: {'line': b'creating /home/Ashish/ros2_ws/build/ackermann_control/build/lib/ackermann_control\n'}
+[9.501736] (ackermann_control) StdoutLine: {'line': b'copying ackermann_control/__init__.py -> /home/Ashish/ros2_ws/build/ackermann_control/build/lib/ackermann_control\n'}
+[9.502695] (ackermann_control) StdoutLine: {'line': b'copying ackermann_control/ackermann_motor_controller.py -> /home/Ashish/ros2_ws/build/ackermann_control/build/lib/ackermann_control\n'}
+[9.504094] (ackermann_control) StdoutLine: {'line': b'running install\n'}
+[9.506309] (ackermann_control) StdoutLine: {'line': b'running install_lib\n'}
+[9.514433] (ackermann_control) StdoutLine: {'line': b'creating /home/Ashish/ros2_ws/install/ackermann_control/lib/python3.10/site-packages/ackermann_control\n'}
+[9.515832] (ackermann_control) StdoutLine: {'line': b'copying /home/Ashish/ros2_ws/build/ackermann_control/build/lib/ackermann_control/__init__.py -> /home/Ashish/ros2_ws/install/ackermann_control/lib/python3.10/site-packages/ackermann_control\n'}
+[9.517492] (ackermann_control) StdoutLine: {'line': b'copying /home/Ashish/ros2_ws/build/ackermann_control/build/lib/ackermann_control/ackermann_motor_controller.py -> /home/Ashish/ros2_ws/install/ackermann_control/lib/python3.10/site-packages/ackermann_control\n'}
+[9.523673] (ackermann_control) StdoutLine: {'line': b'byte-compiling /home/Ashish/ros2_ws/install/ackermann_control/lib/python3.10/site-packages/ackermann_control/__init__.py to __init__.cpython-310.pyc\n'}
+[9.525036] (-) TimerEvent: {}
+[9.526859] (ackermann_control) StdoutLine: {'line': b'byte-compiling /home/Ashish/ros2_ws/install/ackermann_control/lib/python3.10/site-packages/ackermann_control/ackermann_motor_controller.py to ackermann_motor_controller.cpython-310.pyc\n'}
+[9.534463] (ackermann_control) StdoutLine: {'line': b'running install_data\n'}
+[9.535877] (ackermann_control) StdoutLine: {'line': b'creating /home/Ashish/ros2_ws/install/ackermann_control/share/ament_index\n'}
+[9.537347] (ackermann_control) StdoutLine: {'line': b'creating /home/Ashish/ros2_ws/install/ackermann_control/share/ament_index/resource_index\n'}
+[9.538646] (ackermann_control) StdoutLine: {'line': b'creating /home/Ashish/ros2_ws/install/ackermann_control/share/ament_index/resource_index/packages\n'}
+[9.540196] (ackermann_control) StdoutLine: {'line': b'copying resource/ackermann_control -> /home/Ashish/ros2_ws/install/ackermann_control/share/ament_index/resource_index/packages\n'}
+[9.541330] (ackermann_control) StdoutLine: {'line': b'copying package.xml -> /home/Ashish/ros2_ws/install/ackermann_control/share/ackermann_control\n'}
+[9.542619] (ackermann_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.559723] (ackermann_control) StdoutLine: {'line': b'Copying ../../build/ackermann_control/ackermann_control.egg-info to /home/Ashish/ros2_ws/install/ackermann_control/lib/python3.10/site-packages/ackermann_control-0.0.0-py3.10.egg-info\n'}
+[9.564824] (rplidar_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.575204] (ackermann_control) StdoutLine: {'line': b'running install_scripts\n'}
+[9.625319] (-) TimerEvent: {}
+[9.726705] (-) TimerEvent: {}
+[9.773698] (ackermann_control) StdoutLine: {'line': b'Installing ackermann_motor_controller script to /home/Ashish/ros2_ws/install/ackermann_control/lib/ackermann_control\n'}
+[9.777215] (ackermann_control) StdoutLine: {'line': b"writing list of installed files to '/home/Ashish/ros2_ws/build/ackermann_control/install.log'\n"}
+[9.827406] (-) TimerEvent: {}
+[9.929200] (-) TimerEvent: {}
+[9.934512] (rplidar_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[9.983698] (ackermann_control) CommandEnded: {'returncode': 0}
+[10.029521] (-) TimerEvent: {}
+[10.040501] (rplidar_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/Ashish/ros2_ws/build/rplidar_ros\n'}
+[10.129738] (-) TimerEvent: {}
+[10.230869] (-) TimerEvent: {}
+[10.240746] (ackermann_control) JobEnded: {'identifier': 'ackermann_control', 'rc': 0}
+[10.248793] (rplidar_ros) CommandEnded: {'returncode': 0}
+[10.251229] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[10.257540] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/Ashish/ros2_ws/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/home/Ashish/ros2_ws/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'Ashish'), ('SSH_CLIENT', '172.30.84.238 63822 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/Ashish/ros2_ws/install/rplidar_ros/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/Ashish'), ('OLDPWD', '/home/Ashish/ros2_ws/src/ackermann_control/ackermann_control'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('ROS_IP', '10.79.81.235'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/Ashish/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'Ashish'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/Ashish/ros2_ws/install/rplidar_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/Ashish/ros2_ws/build/rplidar_ros'), ('SSH_CONNECTION', '172.30.84.238 63822 172.30.84.235 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/Ashish/ros2_ws/install/rplidar_ros')]), 'shell': False}
+[10.331233] (-) TimerEvent: {}
+[10.432458] (-) TimerEvent: {}
+[10.533710] (-) TimerEvent: {}
+[10.635057] (-) TimerEvent: {}
+[10.686961] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rplidar_client\x1b[0m\n'}
+[10.735568] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rplidar_node\x1b[0m\n'}
+[10.736752] (-) TimerEvent: {}
+[10.743474] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rplidar_composition\x1b[0m\n'}
+[10.837076] (-) TimerEvent: {}
+[10.939943] (-) TimerEvent: {}
+[11.009181] (rplidar_ros) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_client.dir/src/rplidar_client.cpp.o\x1b[0m\n'}
+[11.040258] (-) TimerEvent: {}
+[11.141715] (-) TimerEvent: {}
+[11.186215] (rplidar_ros) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_node.dir/src/rplidar_node.cpp.o\x1b[0m\n'}
+[11.202996] (rplidar_ros) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/arch/linux/net_serial.cpp.o\x1b[0m\n'}
+[11.207294] (rplidar_ros) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o\x1b[0m\n'}
+[11.241980] (-) TimerEvent: {}
+[11.343428] (-) TimerEvent: {}
+[11.445606] (-) TimerEvent: {}
+[11.546842] (-) TimerEvent: {}
+[11.648476] (-) TimerEvent: {}
+[11.749696] (-) TimerEvent: {}
+[11.851034] (-) TimerEvent: {}
+[11.952446] (-) TimerEvent: {}
+[12.053858] (-) TimerEvent: {}
+[12.155982] (-) TimerEvent: {}
+[12.257507] (-) TimerEvent: {}
+[12.359016] (-) TimerEvent: {}
+[12.460615] (-) TimerEvent: {}
+[12.562025] (-) TimerEvent: {}
+[12.664366] (-) TimerEvent: {}
+[12.766842] (-) TimerEvent: {}
+[12.869264] (-) TimerEvent: {}
+[12.972175] (-) TimerEvent: {}
+[13.074911] (-) TimerEvent: {}
+[13.176540] (-) TimerEvent: {}
+[13.277862] (-) TimerEvent: {}
+[13.379146] (-) TimerEvent: {}
+[13.481062] (-) TimerEvent: {}
+[13.582310] (-) TimerEvent: {}
+[13.683612] (-) TimerEvent: {}
+[13.784846] (-) TimerEvent: {}
+[13.886266] (-) TimerEvent: {}
+[13.987671] (-) TimerEvent: {}
+[14.089146] (-) TimerEvent: {}
+[14.190739] (-) TimerEvent: {}
+[14.292240] (-) TimerEvent: {}
+[14.393691] (-) TimerEvent: {}
+[14.496980] (-) TimerEvent: {}
+[14.599504] (-) TimerEvent: {}
+[14.702635] (-) TimerEvent: {}
+[14.805901] (-) TimerEvent: {}
+[14.908874] (-) TimerEvent: {}
+[15.011965] (-) TimerEvent: {}
+[15.115102] (-) TimerEvent: {}
+[15.217635] (-) TimerEvent: {}
+[15.320206] (-) TimerEvent: {}
+[15.422662] (-) TimerEvent: {}
+[15.525160] (-) TimerEvent: {}
+[15.626440] (-) TimerEvent: {}
+[15.727733] (-) TimerEvent: {}
+[15.829322] (-) TimerEvent: {}
+[15.932230] (-) TimerEvent: {}
+[16.035028] (-) TimerEvent: {}
+[16.137711] (-) TimerEvent: {}
+[16.240749] (-) TimerEvent: {}
+[16.343875] (-) TimerEvent: {}
+[16.446914] (-) TimerEvent: {}
+[16.549989] (-) TimerEvent: {}
+[16.653014] (-) TimerEvent: {}
+[16.754364] (-) TimerEvent: {}
+[16.855711] (-) TimerEvent: {}
+[16.957212] (-) TimerEvent: {}
+[17.058998] (-) TimerEvent: {}
+[17.162154] (-) TimerEvent: {}
+[17.265294] (-) TimerEvent: {}
+[17.368220] (-) TimerEvent: {}
+[17.471461] (-) TimerEvent: {}
+[17.574280] (-) TimerEvent: {}
+[17.677209] (-) TimerEvent: {}
+[17.780803] (-) TimerEvent: {}
+[17.884594] (-) TimerEvent: {}
+[17.988213] (-) TimerEvent: {}
+[18.091904] (-) TimerEvent: {}
+[18.195961] (-) TimerEvent: {}
+[18.299526] (-) TimerEvent: {}
+[18.342141] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.343898] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:97:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[18.345135] (rplidar_ros) StderrLine: {'line': b'   97 | bool raw_serial::open(const char * portname, uint32_t baudrate, \x1b[01;35m\x1b[Kuint32_t flags\x1b[m\x1b[K)\n'}
+[18.346353] (rplidar_ros) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[18.349612] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::arch::net::raw_serial::flush(_u32)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.350946] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:281:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kflags\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[18.352583] (rplidar_ros) StderrLine: {'line': b'  281 | void raw_serial::flush( \x1b[01;35m\x1b[K_u32 flags\x1b[m\x1b[K)\n'}
+[18.353835] (rplidar_ros) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~^~~~~\x1b[m\x1b[K\n'}
+[18.355009] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.356425] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:286:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[18.357640] (rplidar_ros) StderrLine: {'line': b'  286 | int raw_serial::waitforsent(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[18.358791] (rplidar_ros) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[18.360047] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.361294] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:292:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktimeout\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[18.362456] (rplidar_ros) StderrLine: {'line': b'  292 | int raw_serial::waitforrecv(\x1b[01;35m\x1b[K_u32 timeout\x1b[m\x1b[K, size_t * returned_size)\n'}
+[18.363889] (rplidar_ros) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[18.372276] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void rp::arch::net::raw_serial::cancelOperation()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.374050] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:427:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvalue computed is not used [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[18.375681] (rplidar_ros) StderrLine: {'line': b'  427 |     \x1b[01;35m\x1b[K(int)::write(_selfpipe[1], "x", 1)\x1b[m\x1b[K;\n'}
+[18.376965] (rplidar_ros) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.399861] (-) TimerEvent: {}
+[18.501531] (-) TimerEvent: {}
+[18.603605] (-) TimerEvent: {}
+[18.705312] (-) TimerEvent: {}
+[18.807374] (-) TimerEvent: {}
+[18.909214] (-) TimerEvent: {}
+[19.011058] (-) TimerEvent: {}
+[19.113122] (-) TimerEvent: {}
+[19.215061] (-) TimerEvent: {}
+[19.316712] (-) TimerEvent: {}
+[19.418600] (-) TimerEvent: {}
+[19.520650] (-) TimerEvent: {}
+[19.622578] (-) TimerEvent: {}
+[19.724647] (-) TimerEvent: {}
+[19.826171] (-) TimerEvent: {}
+[19.833143] (rplidar_ros) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/arch/linux/net_socket.cpp.o\x1b[0m\n'}
+[19.926690] (-) TimerEvent: {}
+[20.029919] (-) TimerEvent: {}
+[20.132832] (-) TimerEvent: {}
+[20.235655] (-) TimerEvent: {}
+[20.338532] (-) TimerEvent: {}
+[20.441411] (-) TimerEvent: {}
+[20.543920] (-) TimerEvent: {}
+[20.646717] (-) TimerEvent: {}
+[20.749668] (-) TimerEvent: {}
+[20.851269] (-) TimerEvent: {}
+[20.953243] (-) TimerEvent: {}
+[21.054859] (-) TimerEvent: {}
+[21.156556] (-) TimerEvent: {}
+[21.258263] (-) TimerEvent: {}
+[21.360125] (-) TimerEvent: {}
+[21.461892] (-) TimerEvent: {}
+[21.563622] (-) TimerEvent: {}
+[21.665235] (-) TimerEvent: {}
+[21.767484] (-) TimerEvent: {}
+[21.875682] (-) TimerEvent: {}
+[21.977484] (-) TimerEvent: {}
+[22.079409] (-) TimerEvent: {}
+[22.181369] (-) TimerEvent: {}
+[22.283644] (-) TimerEvent: {}
+[22.385286] (-) TimerEvent: {}
+[22.487177] (-) TimerEvent: {}
+[22.590053] (-) TimerEvent: {}
+[22.693226] (-) TimerEvent: {}
+[22.796394] (-) TimerEvent: {}
+[22.899801] (-) TimerEvent: {}
+[23.013258] (-) TimerEvent: {}
+[23.115994] (-) TimerEvent: {}
+[23.237116] (-) TimerEvent: {}
+[23.344615] (-) TimerEvent: {}
+[23.447618] (-) TimerEvent: {}
+[23.550501] (-) TimerEvent: {}
+[23.653231] (-) TimerEvent: {}
+[23.760869] (-) TimerEvent: {}
+[23.864281] (-) TimerEvent: {}
+[23.967116] (-) TimerEvent: {}
+[24.070246] (-) TimerEvent: {}
+[24.173460] (-) TimerEvent: {}
+[24.283733] (-) TimerEvent: {}
+[24.385501] (-) TimerEvent: {}
+[24.488268] (-) TimerEvent: {}
+[24.591607] (-) TimerEvent: {}
+[24.695288] (-) TimerEvent: {}
+[24.798688] (-) TimerEvent: {}
+[24.901949] (-) TimerEvent: {}
+[25.003887] (-) TimerEvent: {}
+[25.105770] (-) TimerEvent: {}
+[25.207949] (-) TimerEvent: {}
+[25.315555] (-) TimerEvent: {}
+[25.417177] (-) TimerEvent: {}
+[25.519098] (-) TimerEvent: {}
+[25.621618] (-) TimerEvent: {}
+[25.723885] (-) TimerEvent: {}
+[25.825429] (-) TimerEvent: {}
+[25.926935] (-) TimerEvent: {}
+[26.028490] (-) TimerEvent: {}
+[26.130149] (-) TimerEvent: {}
+[26.233166] (-) TimerEvent: {}
+[26.336148] (-) TimerEvent: {}
+[26.420517] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[26.422096] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[26.423482] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[26.424890] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[26.427416] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[26.428951] (rplidar_ros) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[26.430238] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[26.431671] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[26.433275] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[26.434538] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[26.448125] (-) TimerEvent: {}
+[26.450623] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[26.452178] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[26.453504] (rplidar_ros) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[26.454804] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[26.548512] (-) TimerEvent: {}
+[26.651527] (-) TimerEvent: {}
+[26.754488] (-) TimerEvent: {}
+[26.857516] (-) TimerEvent: {}
+[26.960488] (-) TimerEvent: {}
+[27.063472] (-) TimerEvent: {}
+[27.116432] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/arch_linux.h:42\x1b[m\x1b[K,\n'}
+[27.117971] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/sdkcommon.h:41\x1b[m\x1b[K,\n'}
+[27.119395] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10\x1b[m\x1b[K:\n'}
+[27.120759] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress*, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[27.122160] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:733:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[27.123764] (rplidar_ros) StderrLine: {'line': b'  733 |             assert(\x1b[01;35m\x1b[Kans == len\x1b[m\x1b[K);\n'}
+[27.125073] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~^~~~~~\x1b[m\x1b[K\n'}
+[27.163836] (-) TimerEvent: {}
+[27.265452] (-) TimerEvent: {}
+[27.367131] (-) TimerEvent: {}
+[27.468930] (-) TimerEvent: {}
+[27.571707] (-) TimerEvent: {}
+[27.674959] (-) TimerEvent: {}
+[27.778026] (-) TimerEvent: {}
+[27.880759] (-) TimerEvent: {}
+[27.983539] (-) TimerEvent: {}
+[28.086251] (-) TimerEvent: {}
+[28.189194] (-) TimerEvent: {}
+[28.292229] (-) TimerEvent: {}
+[28.395540] (-) TimerEvent: {}
+[28.498533] (-) TimerEvent: {}
+[28.601517] (-) TimerEvent: {}
+[28.704393] (-) TimerEvent: {}
+[28.807292] (-) TimerEvent: {}
+[28.910468] (-) TimerEvent: {}
+[29.004377] (rplidar_ros) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/arch/linux/timer.cpp.o\x1b[0m\n'}
+[29.010977] (-) TimerEvent: {}
+[29.114638] (-) TimerEvent: {}
+[29.217735] (-) TimerEvent: {}
+[29.319380] (-) TimerEvent: {}
+[29.420963] (-) TimerEvent: {}
+[29.522738] (-) TimerEvent: {}
+[29.624496] (-) TimerEvent: {}
+[29.726432] (-) TimerEvent: {}
+[29.828189] (-) TimerEvent: {}
+[29.930063] (-) TimerEvent: {}
+[30.031832] (-) TimerEvent: {}
+[30.133665] (-) TimerEvent: {}
+[30.235849] (-) TimerEvent: {}
+[30.348075] (-) TimerEvent: {}
+[30.449826] (-) TimerEvent: {}
+[30.551708] (-) TimerEvent: {}
+[30.653402] (-) TimerEvent: {}
+[30.755023] (-) TimerEvent: {}
+[30.856722] (-) TimerEvent: {}
+[30.958448] (-) TimerEvent: {}
+[31.061344] (-) TimerEvent: {}
+[31.163713] (-) TimerEvent: {}
+[31.265208] (-) TimerEvent: {}
+[31.366912] (-) TimerEvent: {}
+[31.468667] (-) TimerEvent: {}
+[31.570483] (-) TimerEvent: {}
+[31.672327] (-) TimerEvent: {}
+[31.774346] (-) TimerEvent: {}
+[31.875842] (-) TimerEvent: {}
+[31.977396] (-) TimerEvent: {}
+[32.079427] (-) TimerEvent: {}
+[32.181218] (-) TimerEvent: {}
+[32.283045] (-) TimerEvent: {}
+[32.384940] (-) TimerEvent: {}
+[32.486645] (-) TimerEvent: {}
+[32.588390] (-) TimerEvent: {}
+[32.690311] (-) TimerEvent: {}
+[32.792109] (-) TimerEvent: {}
+[32.893805] (-) TimerEvent: {}
+[32.996986] (-) TimerEvent: {}
+[33.100184] (-) TimerEvent: {}
+[33.203254] (-) TimerEvent: {}
+[33.304933] (-) TimerEvent: {}
+[33.406761] (-) TimerEvent: {}
+[33.508637] (-) TimerEvent: {}
+[33.610530] (-) TimerEvent: {}
+[33.712321] (-) TimerEvent: {}
+[33.814058] (-) TimerEvent: {}
+[33.915893] (-) TimerEvent: {}
+[34.018055] (-) TimerEvent: {}
+[34.119726] (-) TimerEvent: {}
+[34.221455] (-) TimerEvent: {}
+[34.323243] (-) TimerEvent: {}
+[34.424932] (-) TimerEvent: {}
+[34.526583] (-) TimerEvent: {}
+[34.628618] (-) TimerEvent: {}
+[34.730324] (-) TimerEvent: {}
+[34.832000] (-) TimerEvent: {}
+[34.933764] (-) TimerEvent: {}
+[35.035510] (-) TimerEvent: {}
+[35.137197] (-) TimerEvent: {}
+[35.238942] (-) TimerEvent: {}
+[35.346341] (-) TimerEvent: {}
+[35.448124] (-) TimerEvent: {}
+[35.549917] (-) TimerEvent: {}
+[35.651656] (-) TimerEvent: {}
+[35.753385] (-) TimerEvent: {}
+[35.856388] (-) TimerEvent: {}
+[35.959747] (-) TimerEvent: {}
+[36.030238] (rplidar_ros) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/dataunpacker/dataunpacker.cpp.o\x1b[0m\n'}
+[36.060076] (-) TimerEvent: {}
+[36.163096] (-) TimerEvent: {}
+[36.266339] (-) TimerEvent: {}
+[36.369470] (-) TimerEvent: {}
+[36.472881] (-) TimerEvent: {}
+[36.575939] (-) TimerEvent: {}
+[36.678631] (-) TimerEvent: {}
+[36.781468] (-) TimerEvent: {}
+[36.884182] (-) TimerEvent: {}
+[36.986955] (-) TimerEvent: {}
+[37.089851] (-) TimerEvent: {}
+[37.192645] (-) TimerEvent: {}
+[37.295567] (-) TimerEvent: {}
+[37.398741] (-) TimerEvent: {}
+[37.501835] (-) TimerEvent: {}
+[37.604793] (-) TimerEvent: {}
+[37.707831] (-) TimerEvent: {}
+[37.810616] (-) TimerEvent: {}
+[37.913486] (-) TimerEvent: {}
+[38.016256] (-) TimerEvent: {}
+[38.119095] (-) TimerEvent: {}
+[38.221884] (-) TimerEvent: {}
+[38.324661] (-) TimerEvent: {}
+[38.427556] (-) TimerEvent: {}
+[38.530472] (-) TimerEvent: {}
+[38.633399] (-) TimerEvent: {}
+[38.736797] (-) TimerEvent: {}
+[38.840230] (-) TimerEvent: {}
+[38.943054] (-) TimerEvent: {}
+[39.045996] (-) TimerEvent: {}
+[39.148879] (-) TimerEvent: {}
+[39.252147] (-) TimerEvent: {}
+[39.355506] (-) TimerEvent: {}
+[39.458478] (-) TimerEvent: {}
+[39.562077] (-) TimerEvent: {}
+[39.665748] (-) TimerEvent: {}
+[39.768978] (-) TimerEvent: {}
+[39.872210] (-) TimerEvent: {}
+[39.975463] (-) TimerEvent: {}
+[40.078703] (-) TimerEvent: {}
+[40.181936] (-) TimerEvent: {}
+[40.284969] (-) TimerEvent: {}
+[40.386527] (-) TimerEvent: {}
+[40.489517] (-) TimerEvent: {}
+[40.592566] (-) TimerEvent: {}
+[40.695853] (-) TimerEvent: {}
+[40.799407] (-) TimerEvent: {}
+[40.902618] (-) TimerEvent: {}
+[41.005630] (-) TimerEvent: {}
+[41.108868] (-) TimerEvent: {}
+[41.211778] (-) TimerEvent: {}
+[41.314895] (-) TimerEvent: {}
+[41.418101] (-) TimerEvent: {}
+[41.521640] (-) TimerEvent: {}
+[41.625469] (-) TimerEvent: {}
+[41.728481] (-) TimerEvent: {}
+[41.831784] (-) TimerEvent: {}
+[41.934814] (-) TimerEvent: {}
+[42.038118] (-) TimerEvent: {}
+[42.141278] (-) TimerEvent: {}
+[42.207283] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:41\x1b[m\x1b[K,\n'}
+[42.211562] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[42.213954] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[42.215281] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/src/rplidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[42.216687] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[42.217967] (rplidar_ros) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[42.219296] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[42.220731] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[42.222008] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[42.223280] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/src/rplidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[42.237140] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[42.238619] (rplidar_ros) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[42.240146] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[42.241461] (-) TimerEvent: {}
+[42.344415] (-) TimerEvent: {}
+[42.447541] (-) TimerEvent: {}
+[42.550874] (-) TimerEvent: {}
+[42.577131] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[42.579619] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[42.580985] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[42.582405] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/dataunnpacker_commondef.h:41\x1b[m\x1b[K,\n'}
+[42.583826] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.cpp:39\x1b[m\x1b[K:\n'}
+[42.596352] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[42.597808] (rplidar_ros) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[42.599238] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[42.600811] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[42.602121] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[42.611895] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[42.613571] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/dataunnpacker_commondef.h:41\x1b[m\x1b[K,\n'}
+[42.614950] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.cpp:39\x1b[m\x1b[K:\n'}
+[42.616413] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[42.617760] (rplidar_ros) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[42.619109] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[42.651259] (-) TimerEvent: {}
+[42.753096] (-) TimerEvent: {}
+[42.854856] (-) TimerEvent: {}
+[42.956704] (-) TimerEvent: {}
+[43.058531] (-) TimerEvent: {}
+[43.129889] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:41\x1b[m\x1b[K,\n'}
+[43.131897] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[43.133727] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[43.135506] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/src/rplidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[43.138168] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[43.140037] (rplidar_ros) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[43.141389] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[43.142689] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[43.144233] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[43.145765] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/src/rplidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[43.147168] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[43.160816] (-) TimerEvent: {}
+[43.163179] (rplidar_ros) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[43.164664] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[43.261214] (-) TimerEvent: {}
+[43.364305] (-) TimerEvent: {}
+[43.467230] (-) TimerEvent: {}
+[43.570369] (-) TimerEvent: {}
+[43.673314] (-) TimerEvent: {}
+[43.776296] (-) TimerEvent: {}
+[43.879152] (-) TimerEvent: {}
+[43.982818] (-) TimerEvent: {}
+[44.086883] (-) TimerEvent: {}
+[44.190860] (-) TimerEvent: {}
+[44.294017] (-) TimerEvent: {}
+[44.397044] (-) TimerEvent: {}
+[44.500156] (-) TimerEvent: {}
+[44.603087] (-) TimerEvent: {}
+[44.706092] (-) TimerEvent: {}
+[44.777343] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.cpp:40\x1b[m\x1b[K:\n'}
+[44.780314] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[44.782840] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KansType\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[44.785334] (rplidar_ros) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(\x1b[01;35m\x1b[K_u8 ansType\x1b[m\x1b[K, _u32 customCode, const void* data, size_t size) {}\n'}
+[44.787661] (rplidar_ros) StderrLine: {'line': b'      |                                                \x1b[01;35m\x1b[K~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[44.790266] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KcustomCode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[44.797597] (rplidar_ros) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, \x1b[01;35m\x1b[K_u32 customCode\x1b[m\x1b[K, const void* data, size_t size) {}\n'}
+[44.799198] (rplidar_ros) StderrLine: {'line': b'      |                                                             \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[44.800668] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:90:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[44.802060] (rplidar_ros) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, \x1b[01;35m\x1b[Kconst void* data\x1b[m\x1b[K, size_t size) {}\n'}
+[44.803528] (rplidar_ros) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[44.804916] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:54:103:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[44.806245] (-) TimerEvent: {}
+[44.824736] (rplidar_ros) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, \x1b[01;35m\x1b[Ksize_t size\x1b[m\x1b[K) {}\n'}
+[44.826211] (rplidar_ros) StderrLine: {'line': b'      |                                                                                                \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[44.827554] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[44.828950] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KerrMsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[44.830293] (rplidar_ros) StderrLine: {'line': b'   56 |         virtual void onDecodingError(\x1b[01;35m\x1b[Kint errMsg\x1b[m\x1b[K, _u8 ansType, const void* payload, size_t size) {}\n'}
+[44.831710] (rplidar_ros) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~~~^~~~~~\x1b[m\x1b[K\n'}
+[44.833198] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KansType\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[44.834743] (rplidar_ros) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, \x1b[01;35m\x1b[K_u8 ansType\x1b[m\x1b[K, const void* payload, size_t size) {}\n'}
+[44.848506] (rplidar_ros) StderrLine: {'line': b'      |                                                  \x1b[01;35m\x1b[K~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[44.849903] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[44.851239] (rplidar_ros) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, \x1b[01;35m\x1b[Kconst void* payload\x1b[m\x1b[K, size_t size) {}\n'}
+[44.852683] (rplidar_ros) StderrLine: {'line': b'      |                                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[44.854025] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/dataunpacker.h:56:91:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[44.855440] (rplidar_ros) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, \x1b[01;35m\x1b[Ksize_t size\x1b[m\x1b[K) {}\n'}
+[44.856860] (rplidar_ros) StderrLine: {'line': b'      |                                                                                    \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[44.906700] (-) TimerEvent: {}
+[45.008341] (-) TimerEvent: {}
+[45.110130] (-) TimerEvent: {}
+[45.211887] (-) TimerEvent: {}
+[45.313595] (-) TimerEvent: {}
+[45.416497] (-) TimerEvent: {}
+[45.522740] (-) TimerEvent: {}
+[45.625705] (-) TimerEvent: {}
+[45.728522] (-) TimerEvent: {}
+[45.831487] (-) TimerEvent: {}
+[45.934431] (-) TimerEvent: {}
+[46.037459] (-) TimerEvent: {}
+[46.140453] (-) TimerEvent: {}
+[46.243562] (-) TimerEvent: {}
+[46.347187] (-) TimerEvent: {}
+[46.450913] (-) TimerEvent: {}
+[46.554538] (-) TimerEvent: {}
+[46.658049] (-) TimerEvent: {}
+[46.761144] (-) TimerEvent: {}
+[46.864225] (-) TimerEvent: {}
+[46.967184] (-) TimerEvent: {}
+[47.070331] (-) TimerEvent: {}
+[47.174029] (-) TimerEvent: {}
+[47.277177] (-) TimerEvent: {}
+[47.380341] (-) TimerEvent: {}
+[47.472010] (rplidar_ros) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.o\x1b[0m\n'}
+[47.480681] (-) TimerEvent: {}
+[47.591965] (-) TimerEvent: {}
+[47.711679] (-) TimerEvent: {}
+[47.815743] (-) TimerEvent: {}
+[47.918929] (-) TimerEvent: {}
+[48.021880] (-) TimerEvent: {}
+[48.124636] (-) TimerEvent: {}
+[48.227537] (-) TimerEvent: {}
+[48.330293] (-) TimerEvent: {}
+[48.433016] (-) TimerEvent: {}
+[48.535701] (-) TimerEvent: {}
+[48.638325] (-) TimerEvent: {}
+[48.741165] (-) TimerEvent: {}
+[48.843899] (-) TimerEvent: {}
+[48.946736] (-) TimerEvent: {}
+[49.050302] (-) TimerEvent: {}
+[49.153809] (-) TimerEvent: {}
+[49.256809] (-) TimerEvent: {}
+[49.359818] (-) TimerEvent: {}
+[49.461358] (-) TimerEvent: {}
+[49.563301] (-) TimerEvent: {}
+[49.665394] (-) TimerEvent: {}
+[49.767134] (-) TimerEvent: {}
+[49.868911] (-) TimerEvent: {}
+[49.972043] (-) TimerEvent: {}
+[50.075423] (-) TimerEvent: {}
+[50.178852] (-) TimerEvent: {}
+[50.282212] (-) TimerEvent: {}
+[50.385659] (-) TimerEvent: {}
+[50.488660] (-) TimerEvent: {}
+[50.598930] (-) TimerEvent: {}
+[50.700714] (-) TimerEvent: {}
+[50.802494] (-) TimerEvent: {}
+[50.904162] (-) TimerEvent: {}
+[51.005822] (-) TimerEvent: {}
+[51.107550] (-) TimerEvent: {}
+[51.209557] (-) TimerEvent: {}
+[51.311292] (-) TimerEvent: {}
+[51.413109] (-) TimerEvent: {}
+[51.514914] (-) TimerEvent: {}
+[51.616626] (-) TimerEvent: {}
+[51.718356] (-) TimerEvent: {}
+[51.820069] (-) TimerEvent: {}
+[51.921949] (-) TimerEvent: {}
+[52.023840] (-) TimerEvent: {}
+[52.126994] (-) TimerEvent: {}
+[52.230555] (-) TimerEvent: {}
+[52.333475] (-) TimerEvent: {}
+[52.468565] (-) TimerEvent: {}
+[52.570098] (-) TimerEvent: {}
+[52.671696] (-) TimerEvent: {}
+[52.773306] (-) TimerEvent: {}
+[52.879056] (-) TimerEvent: {}
+[52.987694] (-) TimerEvent: {}
+[53.100916] (-) TimerEvent: {}
+[53.203803] (-) TimerEvent: {}
+[53.306646] (-) TimerEvent: {}
+[53.409554] (-) TimerEvent: {}
+[53.519662] (-) TimerEvent: {}
+[53.621231] (-) TimerEvent: {}
+[53.727793] (-) TimerEvent: {}
+[53.831222] (-) TimerEvent: {}
+[53.934310] (-) TimerEvent: {}
+[54.038508] (-) TimerEvent: {}
+[54.141395] (-) TimerEvent: {}
+[54.244529] (-) TimerEvent: {}
+[54.276826] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/rplidar_protocol.h:36\x1b[m\x1b[K,\n'}
+[54.281481] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[54.283106] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[54.284720] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41\x1b[m\x1b[K,\n'}
+[54.286132] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:39\x1b[m\x1b[K:\n'}
+[54.287729] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[54.289530] (rplidar_ros) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[54.291027] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[54.295520] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/rplidar_cmd.h:36\x1b[m\x1b[K,\n'}
+[54.297223] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[54.298811] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/sdkcommon.h:49\x1b[m\x1b[K,\n'}
+[54.300535] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41\x1b[m\x1b[K,\n'}
+[54.315680] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:39\x1b[m\x1b[K:\n'}
+[54.317320] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[54.318816] (rplidar_ros) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[54.320363] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[54.344908] (-) TimerEvent: {}
+[54.448013] (-) TimerEvent: {}
+[54.551110] (-) TimerEvent: {}
+[54.654336] (-) TimerEvent: {}
+[54.757262] (-) TimerEvent: {}
+[54.860278] (-) TimerEvent: {}
+[54.964420] (-) TimerEvent: {}
+[55.070047] (-) TimerEvent: {}
+[55.175084] (-) TimerEvent: {}
+[55.278000] (-) TimerEvent: {}
+[55.381608] (-) TimerEvent: {}
+[55.485129] (-) TimerEvent: {}
+[55.588527] (-) TimerEvent: {}
+[55.691968] (-) TimerEvent: {}
+[55.795620] (-) TimerEvent: {}
+[55.897385] (-) TimerEvent: {}
+[55.999735] (-) TimerEvent: {}
+[56.103770] (-) TimerEvent: {}
+[56.207536] (-) TimerEvent: {}
+[56.311011] (-) TimerEvent: {}
+[56.414186] (-) TimerEvent: {}
+[56.515723] (-) TimerEvent: {}
+[56.617953] (-) TimerEvent: {}
+[56.720562] (-) TimerEvent: {}
+[56.822218] (-) TimerEvent: {}
+[56.901296] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:40\x1b[m\x1b[K:\n'}
+[56.906197] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void sl::internal::LIDARSampleDataListener::onCustomSampleDataDecoded(_u8, _u32, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[56.907859] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KansType\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[56.909327] (rplidar_ros) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(\x1b[01;35m\x1b[K_u8 ansType\x1b[m\x1b[K, _u32 customCode, const void* data, size_t size) {}\n'}
+[56.910546] (rplidar_ros) StderrLine: {'line': b'      |                                                \x1b[01;35m\x1b[K~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[56.911872] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KcustomCode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[56.913222] (rplidar_ros) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, \x1b[01;35m\x1b[K_u32 customCode\x1b[m\x1b[K, const void* data, size_t size) {}\n'}
+[56.914535] (rplidar_ros) StderrLine: {'line': b'      |                                                             \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[56.928429] (-) TimerEvent: {}
+[56.929811] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[56.931213] (rplidar_ros) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, \x1b[01;35m\x1b[Kconst void* data\x1b[m\x1b[K, size_t size) {}\n'}
+[56.932580] (rplidar_ros) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[56.933814] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[56.935134] (rplidar_ros) StderrLine: {'line': b'   54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, \x1b[01;35m\x1b[Ksize_t size\x1b[m\x1b[K) {}\n'}
+[56.936491] (rplidar_ros) StderrLine: {'line': b'      |                                                                                                \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[56.937711] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void sl::internal::LIDARSampleDataListener::onDecodingError(int, _u8, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[56.939271] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KerrMsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[56.953009] (rplidar_ros) StderrLine: {'line': b'   56 |         virtual void onDecodingError(\x1b[01;35m\x1b[Kint errMsg\x1b[m\x1b[K, _u8 ansType, const void* payload, size_t size) {}\n'}
+[56.954424] (rplidar_ros) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~~~^~~~~~\x1b[m\x1b[K\n'}
+[56.955809] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KansType\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[56.957166] (rplidar_ros) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, \x1b[01;35m\x1b[K_u8 ansType\x1b[m\x1b[K, const void* payload, size_t size) {}\n'}
+[56.958528] (rplidar_ros) StderrLine: {'line': b'      |                                                  \x1b[01;35m\x1b[K~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[56.959798] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[56.961135] (rplidar_ros) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, \x1b[01;35m\x1b[Kconst void* payload\x1b[m\x1b[K, size_t size) {}\n'}
+[56.962317] (rplidar_ros) StderrLine: {'line': b'      |                                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[56.963738] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[56.965067] (rplidar_ros) StderrLine: {'line': b'   56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, \x1b[01;35m\x1b[Ksize_t size\x1b[m\x1b[K) {}\n'}
+[56.966343] (rplidar_ros) StderrLine: {'line': b'      |                                                                                    \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[57.028771] (-) TimerEvent: {}
+[57.030864] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid sl::internal::unpacker::UnpackerHandler_DenseCapsuleNode::_onScanNodeDenseCapsuleData(rplidar_response_dense_capsule_measurement_nodes_t&, sl::internal::LIDARSampleDataUnpackerInner*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[57.032422] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/Ashish/ros2_ws/src/rplidar_ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:763:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktype qualifiers ignored on cast result type [\x1b[01;35m\x1b[K-Wignored-qualifiers\x1b[m\x1b[K]\n'}
+[57.033798] (rplidar_ros) StderrLine: {'line': b'  763 |             const int dist = \x1b[01;35m\x1b[Kstatic_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance)\x1b[m\x1b[K;\n'}
+[57.035097] (rplidar_ros) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[57.135730] (-) TimerEvent: {}
+[57.237505] (-) TimerEvent: {}
+[57.339471] (-) TimerEvent: {}
+[57.441265] (-) TimerEvent: {}
+[57.543154] (-) TimerEvent: {}
+[57.645381] (-) TimerEvent: {}
+[57.748815] (-) TimerEvent: {}
+[57.853551] (-) TimerEvent: {}
+[57.957567] (-) TimerEvent: {}
+[58.060591] (-) TimerEvent: {}
+[58.164093] (-) TimerEvent: {}
+[58.386185] (-) TimerEvent: {}
+[58.792618] (-) TimerEvent: {}
+[59.525503] (-) TimerEvent: {}
+[60.116315] (-) TimerEvent: {}
+[60.799735] (-) TimerEvent: {}
+[62.033163] (-) TimerEvent: {}
+[62.243894] (-) TimerEvent: {}
+[62.359165] (-) TimerEvent: {}
+[62.463957] (-) TimerEvent: {}
+[62.567613] (-) TimerEvent: {}
+[62.671363] (-) TimerEvent: {}
+[62.780266] (-) TimerEvent: {}
+[62.899868] (-) TimerEvent: {}
+[63.003977] (-) TimerEvent: {}
+[63.107094] (-) TimerEvent: {}
+[63.210067] (-) TimerEvent: {}
+[63.319685] (-) TimerEvent: {}
+[63.423966] (-) TimerEvent: {}
+[63.543684] (-) TimerEvent: {}
+[63.647818] (-) TimerEvent: {}
+[63.750909] (-) TimerEvent: {}
+[63.854102] (-) TimerEvent: {}
+[63.958571] (-) TimerEvent: {}
+[64.061818] (-) TimerEvent: {}
+[64.155290] (rplidar_ros) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.o\x1b[0m\n'}
+[64.211513] (-) TimerEvent: {}
+[64.316775] (-) TimerEvent: {}
+[64.420703] (-) TimerEvent: {}
+[64.525482] (-) TimerEvent: {}
+[64.630101] (-) TimerEvent: {}
+[64.733534] (-) TimerEvent: {}
+[64.837406] (-) TimerEvent: {}
+[64.941367] (-) TimerEvent: {}
+[65.045521] (-) TimerEvent: {}
+[65.149558] (-) TimerEvent: {}
+[65.253235] (-) TimerEvent: {}
+[65.356897] (-) TimerEvent: {}
+[65.460063] (-) TimerEvent: {}
+[65.562962] (-) TimerEvent: {}
+[65.665864] (-) TimerEvent: {}
+[65.768754] (-) TimerEvent: {}
+[65.871762] (-) TimerEvent: {}
+[65.974847] (-) TimerEvent: {}
+[66.076327] (-) TimerEvent: {}
+[66.179508] (-) TimerEvent: {}
+[66.295732] (-) TimerEvent: {}
+[66.411665] (-) TimerEvent: {}
+[66.515309] (-) TimerEvent: {}
+[66.618526] (-) TimerEvent: {}
+[66.721667] (-) TimerEvent: {}
+[66.825039] (-) TimerEvent: {}
+[66.926666] (-) TimerEvent: {}
+[67.028282] (-) TimerEvent: {}
+[67.129792] (-) TimerEvent: {}
+[67.232740] (-) TimerEvent: {}
+[67.335447] (-) TimerEvent: {}
+[67.439652] (-) TimerEvent: {}
+[67.542606] (-) TimerEvent: {}
+[67.647688] (-) TimerEvent: {}
+[67.750454] (-) TimerEvent: {}
+[67.854117] (-) TimerEvent: {}
+[67.955858] (-) TimerEvent: {}
+[68.075726] (-) TimerEvent: {}
+[68.187668] (-) TimerEvent: {}
+[68.290932] (-) TimerEvent: {}
+[68.393802] (-) TimerEvent: {}
+[68.497118] (-) TimerEvent: {}
+[68.599144] (-) TimerEvent: {}
+[68.704126] (-) TimerEvent: {}
+[68.807392] (-) TimerEvent: {}
+[68.908850] (-) TimerEvent: {}
+[69.010323] (-) TimerEvent: {}
+[69.111843] (-) TimerEvent: {}
+[69.213627] (-) TimerEvent: {}
+[69.315621] (-) TimerEvent: {}
+[69.417514] (-) TimerEvent: {}
+[69.519896] (-) TimerEvent: {}
+[69.624052] (-) TimerEvent: {}
+[69.725895] (-) TimerEvent: {}
+[69.827602] (-) TimerEvent: {}
+[69.930663] (-) TimerEvent: {}
+[70.037300] (-) TimerEvent: {}
+[70.138775] (-) TimerEvent: {}
+[70.240579] (-) TimerEvent: {}
+[70.354306] (-) TimerEvent: {}
+[70.456067] (-) TimerEvent: {}
+[70.567640] (-) TimerEvent: {}
+[70.672999] (-) TimerEvent: {}
+[70.777032] (-) TimerEvent: {}
+[70.881710] (-) TimerEvent: {}
+[70.984138] (-) TimerEvent: {}
+[71.085729] (-) TimerEvent: {}
+[71.199138] (-) TimerEvent: {}
+[71.311090] (-) TimerEvent: {}
+[71.556471] (-) TimerEvent: {}
+[73.825597] (-) TimerEvent: {}
+[77.155780] (-) TimerEvent: {}
+[80.571303] (-) TimerEvent: {}
+[83.731858] (-) TimerEvent: {}
+[87.392452] (-) TimerEvent: {}
+[91.594111] (-) TimerEvent: {}
+[95.291454] (-) TimerEvent: {}
+[99.241972] (-) TimerEvent: {}
+[105.009446] (-) TimerEvent: {}
+[111.273197] (-) TimerEvent: {}
+[115.168801] (-) TimerEvent: {}
+[118.436966] (-) TimerEvent: {}
+[123.541035] (-) TimerEvent: {}
+[128.401592] (-) TimerEvent: {}
+[134.469996] (-) TimerEvent: {}
+[141.132842] (-) TimerEvent: {}
+[148.143529] (-) TimerEvent: {}
+[157.936410] (-) TimerEvent: {}
+[158.826819] (rplidar_ros) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rplidar_client.dir/build.make:76: CMakeFiles/rplidar_client.dir/src/rplidar_client.cpp.o] Interrupt\n'}
+[158.853028] (-) TimerEvent: {}
+[158.854293] (rplidar_ros) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rplidar_composition.dir/build.make:76: CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o] Interrupt\n'}
+[158.857852] (rplidar_ros) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rplidar_node.dir/build.make:76: CMakeFiles/rplidar_node.dir/src/rplidar_node.cpp.o] Interrupt\n'}
+[158.859295] (rplidar_ros) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rplidar_node.dir/build.make:160: CMakeFiles/rplidar_node.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.o] Interrupt\n'}
+[158.867843] (rplidar_ros) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/rplidar_client.dir/all] Interrupt\n'}
+[158.868817] (rplidar_ros) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/rplidar_node.dir/all] Interrupt\n'}
+[158.870114] (rplidar_ros) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/rplidar_composition.dir/all] Interrupt\n'}
+[158.871665] (rplidar_ros) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[158.873170] (rplidar_ros) CommandEnded: {'returncode': -2}
+[158.953645] (-) TimerEvent: {}
+[159.005674] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 'SIGINT'}
+[159.019141] (-) EventReactorShutdown: {}

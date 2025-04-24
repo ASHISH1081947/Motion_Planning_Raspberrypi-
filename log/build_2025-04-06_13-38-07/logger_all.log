@@ -1,0 +1,201 @@
+[1.877s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.878s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffbb700f70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffbb822350>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffbb822350>>)
+[3.974s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.975s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.975s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.976s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.976s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.976s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.977s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/Ashish/ros2_ws'
+[3.978s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.979s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.979s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.980s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.980s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.981s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.981s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.982s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.982s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.122s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.125s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.126s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.127s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.128s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.129s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.130s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.131s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.132s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.132s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.134s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.135s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.138s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.141s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.141s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_control) by extensions ['ignore', 'ignore_ament_install']
+[4.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_control) by extension 'ignore'
+[4.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_control) by extension 'ignore_ament_install'
+[4.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_control) by extensions ['colcon_pkg']
+[4.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_control) by extension 'colcon_pkg'
+[4.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_control) by extensions ['colcon_meta']
+[4.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_control) by extension 'colcon_meta'
+[4.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_control) by extensions ['ros']
+[4.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_control) by extension 'ros'
+[4.178s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann_control' with type 'ros.ament_python' and name 'ackermann_control'
+[4.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[4.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[4.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[4.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[4.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[4.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[4.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[4.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[4.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[4.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[4.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.483s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/Ashish/ros2_ws/install
+[4.505s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 184 installed packages in /opt/ros/humble
+[4.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.960s] Level 5:colcon.colcon_core.verb:set package 'ackermann_control' build argument 'cmake_args' from command line to 'None'
+[4.960s] Level 5:colcon.colcon_core.verb:set package 'ackermann_control' build argument 'cmake_target' from command line to 'None'
+[4.961s] Level 5:colcon.colcon_core.verb:set package 'ackermann_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.961s] Level 5:colcon.colcon_core.verb:set package 'ackermann_control' build argument 'cmake_clean_cache' from command line to 'False'
+[4.961s] Level 5:colcon.colcon_core.verb:set package 'ackermann_control' build argument 'cmake_clean_first' from command line to 'False'
+[4.962s] Level 5:colcon.colcon_core.verb:set package 'ackermann_control' build argument 'cmake_force_configure' from command line to 'False'
+[4.962s] Level 5:colcon.colcon_core.verb:set package 'ackermann_control' build argument 'ament_cmake_args' from command line to 'None'
+[4.962s] Level 5:colcon.colcon_core.verb:set package 'ackermann_control' build argument 'catkin_cmake_args' from command line to 'None'
+[4.962s] Level 5:colcon.colcon_core.verb:set package 'ackermann_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.963s] DEBUG:colcon.colcon_core.verb:Building package 'ackermann_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/Ashish/ros2_ws/build/ackermann_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/Ashish/ros2_ws/install/ackermann_control', 'merge_install': False, 'path': '/home/Ashish/ros2_ws/src/ackermann_control', 'symlink_install': False, 'test_result_base': None}
+[4.967s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[4.967s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[4.968s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.968s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[4.968s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[4.968s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[4.969s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[4.969s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[4.969s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.970s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/Ashish/ros2_ws/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/Ashish/ros2_ws/install/rplidar_ros', 'merge_install': False, 'path': '/home/Ashish/ros2_ws/src/rplidar_ros', 'symlink_install': False, 'test_result_base': None}
+[4.971s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.978s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.980s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/Ashish/ros2_ws/src/ackermann_control' with build type 'ament_python'
+[4.982s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_control', 'ament_prefix_path')
+[5.014s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/Ashish/ros2_ws/install/ackermann_control/share/ackermann_control/hook/ament_prefix_path.ps1'
+[5.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/Ashish/ros2_ws/install/ackermann_control/share/ackermann_control/hook/ament_prefix_path.dsv'
+[5.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/Ashish/ros2_ws/install/ackermann_control/share/ackermann_control/hook/ament_prefix_path.sh'
+[5.042s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.043s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.087s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/Ashish/ros2_ws/src/rplidar_ros' with build type 'ament_cmake'
+[5.089s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/Ashish/ros2_ws/src/rplidar_ros'
+[5.092s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.093s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.741s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/Ashish/ros2_ws/src/ackermann_control'
+[7.744s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.745s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/Ashish/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/Ashish/ros2_ws/build/rplidar_ros -- -j4 -l4
+[12.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/Ashish/ros2_ws/src/ackermann_control': PYTHONPATH=/home/Ashish/ros2_ws/build/ackermann_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Ashish/ros2_ws/install/ackermann_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ackermann_control build --build-base /home/Ashish/ros2_ws/build/ackermann_control/build install --record /home/Ashish/ros2_ws/build/ackermann_control/install.log --single-version-externally-managed install_data
+[15.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/Ashish/ros2_ws/src/ackermann_control' returned '0': PYTHONPATH=/home/Ashish/ros2_ws/build/ackermann_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/Ashish/ros2_ws/install/ackermann_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ackermann_control build --build-base /home/Ashish/ros2_ws/build/ackermann_control/build install --record /home/Ashish/ros2_ws/build/ackermann_control/install.log --single-version-externally-managed install_data
+[15.288s] Level 1:colcon.colcon_core.environment:checking '/home/Ashish/ros2_ws/install/ackermann_control' for CMake module files
+[15.295s] Level 1:colcon.colcon_core.environment:checking '/home/Ashish/ros2_ws/install/ackermann_control' for CMake config files
+[15.305s] Level 1:colcon.colcon_core.environment:checking '/home/Ashish/ros2_ws/install/ackermann_control/lib'
+[15.307s] Level 1:colcon.colcon_core.environment:checking '/home/Ashish/ros2_ws/install/ackermann_control/bin'
+[15.308s] Level 1:colcon.colcon_core.environment:checking '/home/Ashish/ros2_ws/install/ackermann_control/lib/pkgconfig/ackermann_control.pc'
+[15.310s] Level 1:colcon.colcon_core.environment:checking '/home/Ashish/ros2_ws/install/ackermann_control/lib/python3.10/site-packages'
+[15.311s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_control', 'pythonpath')
+[15.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/Ashish/ros2_ws/install/ackermann_control/share/ackermann_control/hook/pythonpath.ps1'
+[15.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/Ashish/ros2_ws/install/ackermann_control/share/ackermann_control/hook/pythonpath.dsv'
+[15.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/Ashish/ros2_ws/install/ackermann_control/share/ackermann_control/hook/pythonpath.sh'
+[15.328s] Level 1:colcon.colcon_core.environment:checking '/home/Ashish/ros2_ws/install/ackermann_control/bin'
+[15.329s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_control)
+[15.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/Ashish/ros2_ws/install/ackermann_control/share/ackermann_control/package.ps1'
+[15.341s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/Ashish/ros2_ws/install/ackermann_control/share/ackermann_control/package.dsv'
+[15.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/Ashish/ros2_ws/install/ackermann_control/share/ackermann_control/package.sh'
+[15.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/Ashish/ros2_ws/install/ackermann_control/share/ackermann_control/package.bash'
+[15.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/Ashish/ros2_ws/install/ackermann_control/share/ackermann_control/package.zsh'
+[15.372s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/Ashish/ros2_ws/install/ackermann_control/share/colcon-core/packages/ackermann_control)
+[192.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/Ashish/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/Ashish/ros2_ws/build/rplidar_ros -- -j4 -l4
+[192.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/Ashish/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/Ashish/ros2_ws/build/rplidar_ros
+[193.005s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[193.007s] Level 1:colcon.colcon_core.environment:checking '/home/Ashish/ros2_ws/install/rplidar_ros' for CMake module files
+[193.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/Ashish/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/Ashish/ros2_ws/build/rplidar_ros
+[193.019s] Level 1:colcon.colcon_core.environment:checking '/home/Ashish/ros2_ws/install/rplidar_ros' for CMake config files
+[193.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[193.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/Ashish/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[193.031s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/Ashish/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[193.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/Ashish/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[193.042s] Level 1:colcon.colcon_core.environment:checking '/home/Ashish/ros2_ws/install/rplidar_ros/lib'
+[193.043s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'ld_library_path_lib')
+[193.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/Ashish/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.ps1'
+[193.049s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/Ashish/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.dsv'
+[193.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/Ashish/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.sh'
+[193.058s] Level 1:colcon.colcon_core.environment:checking '/home/Ashish/ros2_ws/install/rplidar_ros/bin'
+[193.058s] Level 1:colcon.colcon_core.environment:checking '/home/Ashish/ros2_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[193.061s] Level 1:colcon.colcon_core.environment:checking '/home/Ashish/ros2_ws/install/rplidar_ros/lib/python3.10/site-packages'
+[193.063s] Level 1:colcon.colcon_core.environment:checking '/home/Ashish/ros2_ws/install/rplidar_ros/bin'
+[193.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/Ashish/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[193.071s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/Ashish/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[193.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/Ashish/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[193.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/Ashish/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[193.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/Ashish/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[193.089s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/Ashish/ros2_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[193.095s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[193.097s] Level 1:colcon.colcon_core.environment:checking '/home/Ashish/ros2_ws/install/rplidar_ros' for CMake module files
+[193.106s] Level 1:colcon.colcon_core.environment:checking '/home/Ashish/ros2_ws/install/rplidar_ros' for CMake config files
+[193.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[193.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/Ashish/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[193.117s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/Ashish/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[193.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/Ashish/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[193.127s] Level 1:colcon.colcon_core.environment:checking '/home/Ashish/ros2_ws/install/rplidar_ros/lib'
+[193.128s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'ld_library_path_lib')
+[193.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/Ashish/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.ps1'
+[193.134s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/Ashish/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.dsv'
+[193.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/Ashish/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.sh'
+[193.144s] Level 1:colcon.colcon_core.environment:checking '/home/Ashish/ros2_ws/install/rplidar_ros/bin'
+[193.145s] Level 1:colcon.colcon_core.environment:checking '/home/Ashish/ros2_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[193.147s] Level 1:colcon.colcon_core.environment:checking '/home/Ashish/ros2_ws/install/rplidar_ros/lib/python3.10/site-packages'
+[193.149s] Level 1:colcon.colcon_core.environment:checking '/home/Ashish/ros2_ws/install/rplidar_ros/bin'
+[193.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/Ashish/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[193.158s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/Ashish/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[193.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/Ashish/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[193.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/Ashish/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[193.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/Ashish/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[193.178s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/Ashish/ros2_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[193.181s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[193.183s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[193.184s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[193.187s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[193.369s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[193.370s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[193.371s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[193.371s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[193.378s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[193.379s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[193.381s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/Ashish/ros2_ws/install/local_setup.ps1'
+[193.391s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/Ashish/ros2_ws/install/_local_setup_util_ps1.py'
+[193.407s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/Ashish/ros2_ws/install/setup.ps1'
+[193.418s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/Ashish/ros2_ws/install/local_setup.sh'
+[193.424s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/Ashish/ros2_ws/install/_local_setup_util_sh.py'
+[193.430s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/Ashish/ros2_ws/install/setup.sh'
+[193.442s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/Ashish/ros2_ws/install/local_setup.bash'
+[193.448s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/Ashish/ros2_ws/install/setup.bash'
+[193.459s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/Ashish/ros2_ws/install/local_setup.zsh'
+[193.464s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/Ashish/ros2_ws/install/setup.zsh'
